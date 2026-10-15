@@ -18,11 +18,14 @@ const serviceLinks = [
 const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
+  { label: 'Team', href: '#team' },
   { label: 'Products & Services', href: '#services' },
   { label: 'Industries', href: '#industries' },
   { label: 'Projects', href: '#projects' },
   { label: 'Contact', href: '#contact' },
 ]
+
+const YEAR = new Date().getFullYear()
 
 export default function Footer() {
   return (
@@ -102,7 +105,7 @@ export default function Footer() {
 
       <div className="border-t border-white/10">
         <div className="container-xl py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-600">
-          <p>© {new Date().getFullYear()} A.S. Cooling Tower. All rights reserved.</p>
+          <p>© {YEAR} A.S. Cooling Tower. All rights reserved.</p>
           <p>Industrial Cooling Tower Manufacturer &amp; Installer — India</p>
         </div>
       </div>

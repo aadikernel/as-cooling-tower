@@ -223,7 +223,8 @@ export default function Contact() {
                 <CheckCircle size={40} className="text-green-600 mx-auto mb-3" aria-hidden="true" />
                 <p className="font-bold text-green-800 text-lg mb-2">Enquiry sent!</p>
                 <p className="text-green-700 text-sm mb-5">
-                  Your message has been prepared and opened in WhatsApp or your email client.
+                  Your message has been pre-filled and opened in WhatsApp or your email client.{' '}
+                  <strong>Please press Send inside the app to complete your enquiry.</strong>{' '}
                   If nothing opened, use the direct contact details on the left.
                 </p>
                 <button
@@ -337,7 +338,9 @@ export default function Contact() {
                 </div>
 
                 <p className="text-gray-400 text-xs">
-                  <span className="text-red-500">*</span> Required. Submitting opens WhatsApp or your email client — no data is sent to a server.
+                  <span className="text-red-500">*</span> Required. Clicking a button below opens WhatsApp or your email client with your message pre-filled.{' '}
+                  <strong className="text-gray-600">You must press Send inside WhatsApp or your email app to submit.</strong>{' '}
+                  No data is sent to a server automatically.
                 </p>
 
                 {/* Submit buttons */}

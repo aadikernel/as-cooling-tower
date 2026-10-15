@@ -1,4 +1,4 @@
-import { Wind, Layers, Wrench, Settings, Cog, ArrowUpDown, Zap, Box, Link2, HardHat, RefreshCw, ClipboardList } from 'lucide-react'
+import { Wind, Layers, Settings, Cog, ArrowUpDown, Zap, Box, Link2, HardHat, RefreshCw, ClipboardList } from 'lucide-react'
 
 const products = [
   {

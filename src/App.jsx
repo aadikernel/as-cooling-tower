@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Team from './components/Team'
 import Services from './components/Services'
 import Industries from './components/Industries'
 import ProjectsGallery from './components/ProjectsGallery'
@@ -15,6 +16,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <Team />
         <Services />
         <Industries />
         <ProjectsGallery />
